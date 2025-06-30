@@ -77,11 +77,11 @@ if med_name is not None:
         c1.write("Buy Link")
         c2.write("[link](%s)"%url)
 
-    st.title("Comparision")
-    df=pd.DataFrame(med_price,med_cmp)
-    st.bar_chart(df)
+        st.title("Comparision")
+        df=pd.DataFrame(med_price,med_cmp)
+        st.bar_chart(df)
 
-    fig,ax=plt.subplots()
-    ax.pie(med_price,labels=med_cmp,shadow=True,autopct="%0.1f%%")
-    ax.axis("equal")
-    st.pyplot(fig)
+        fig,ax=plt.subplots()
+        ax.pie(med_price,labels=med_cmp,shadow=True,autopct="%0.1f%%")
+        ax.axis("equal")
+        st.pyplot(fig)
