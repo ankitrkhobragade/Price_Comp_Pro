@@ -3,7 +3,7 @@ import serpapi
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from serpapi import googlesearch
+from serpapi import GoogleSearch
 
 def compare(med_name):
     params = {
