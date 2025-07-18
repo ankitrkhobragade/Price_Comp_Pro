@@ -1,9 +1,9 @@
 #pip install google-search-results
-import serpapi
+#import serpapi
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-#from serpapi import GoogleSearch
+from serpapi import GoogleSearch
 
 def compare(med_name):
     params = {
