@@ -5,3 +5,4 @@ googlesearch-python
 matplotlib
 google-search-results
 GoogleSearch
+serpapi
