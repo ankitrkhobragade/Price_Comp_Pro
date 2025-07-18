@@ -1,5 +1,4 @@
 pandas
-serpapi
 streamlit
 matplotlib
 google-search-results
