@@ -12,7 +12,7 @@ def compare(med_name):
         "api_key": "4ae5a74eafbd10c44e07ce266240e2a95f9e46f322e87bf9e5bd00b35d13bad4",
         "gl": "In"
     }
-    search=serpapi.GoogleSearch(params)
+    search=GoogleSearch(params)
     result=search.get_dict()
     shopping_results=result["shopping_results"]
     return shopping_results
